@@ -1,6 +1,12 @@
 /******** VARIABLES *********/
+:root {
+    --very-light-gray: hsl(0, 0%, 95%);
+}
 
 /********* GENERALES *********/
+body {
+    background-color: var(--very-light-gray);
+}
 
 /******** Loaging Spinner ******/
 .spinner {
