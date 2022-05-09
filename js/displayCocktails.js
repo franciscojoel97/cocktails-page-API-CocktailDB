@@ -10,13 +10,20 @@ const displayCocktails = ({ drinks }) => {
     }
 
     const newCocktail = drinks.map((cocktail) => {
+        //Cocktail object
+        const {idDrink: id, strDrink: name, strDrinkThumb: image} = cocktail;
+
         return `<a href="#">
-                    <article class="cocktails">
-                        <img src="" alt="cocktails">
-                        <h3></h3>
+                    <article class="cocktails" data-id="${id}">
+                        <img src="${image}" alt="${name}">
+                        <h3>${name}</h3>
                     </article>
                 </a>`
     }).join('');
+
+    titleCocktail.textContent = '';
+    section.innerHTML = newCocktail;
+    return section;
 }
 
 export { displayCocktails }

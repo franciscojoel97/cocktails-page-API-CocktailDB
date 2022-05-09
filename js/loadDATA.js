@@ -1,6 +1,6 @@
 import { displayCocktails } from "./displayCocktails.js";
 
-const API_URL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=a';
+const API_URL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=d';
 
 //Cargar datos de la API
 const getData = async () => {
