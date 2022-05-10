@@ -9,16 +9,18 @@ body {
     overflow-x: hidden;
 }
 /****** Cocktails section ******/
-.cocktails-section {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .section-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.a-cocktails {
     flex-grow: 1;
     margin: 20px;
     max-width: 300px;
-    padding: 10px 20px;
+    border: 1px solid #333;
 }
 
 img {
@@ -52,7 +54,7 @@ img {
 }
 /******* ******/
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
     .section-body {
         width: 95vw;
     }
