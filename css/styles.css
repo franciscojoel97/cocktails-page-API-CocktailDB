@@ -4,10 +4,39 @@
 }
 
 /********* GENERALES *********/
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--very-light-gray);
-    overflow-x: hidden;
 }
+
+/******* SEARCH BAR ******/
+.content-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.form-search i {
+    font-size: 20px;
+}
+
+/* .form-search input{
+
+}
+ */
 /****** Cocktails section ******/
 
 .section-body {

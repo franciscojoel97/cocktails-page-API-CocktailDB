@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Cocktails Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2 class="title">Cocktails Page</h2>
-    <form class="form-search">
-        <input type="text" placeholder="Encuentra tu bebida favorita">
-    </form>
+    <div class="content-form">
+        <form class="form-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Encuentra tu bebida favorita" />
+        </form>
+    </div>
     <!-- COCKTAILS SECTION -->
     <section class="cocktails-section">
-        <!-- Spinner Loading -->
-        <div class="spinner hide-spinner">
-
-        </div> 
-        <h2 class="title-cocktail"></h2>
-        <div class="section-body">
-            <!-- <a href="#">
+      <!-- Spinner Loading -->
+      <div class="spinner hide-spinner"></div>
+      <h2 class="title-cocktail"></h2>
+      <div class="section-body">
+        <!-- <a href="#">
                 <article class="cocktails">
                     <img src="" alt="cocktails">
                     <h3></h3>
                 </article>
             </a> -->
-        </div>
+      </div>
     </section>
     <script type="module" src="app.js"></script>
-</body>
+  </body>
 </html>
