@@ -12,6 +12,14 @@ body {
     background-color: var(--very-light-gray);
 }
 
+/******** Main title ********/
+.main-title {
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    font-size: 35px;
+    margin: 3rem;
+}
+
 /******* SEARCH BAR ******/
 .content-form {
     display: flex;
