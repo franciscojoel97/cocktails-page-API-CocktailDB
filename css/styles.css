@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-.form-search {
+.form {
     display: flex;
     align-items: center;
     background-color: #FFF;
@@ -37,12 +37,12 @@ body {
     border-radius: 30px;
 }
 
-.form-search i {
+.form i {
     font-size: 20px;
     margin-left: .5rem;
 }
 
-.form-search input{
+.form input{
     flex: 1;
     height: 35px;
     border: none;
