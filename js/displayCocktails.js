@@ -26,4 +26,4 @@ const displayCocktails = ({ drinks }) => {
     return section;
 }
 
-export { displayCocktails }
+export default displayCocktails;

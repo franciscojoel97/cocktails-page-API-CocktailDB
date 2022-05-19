@@ -8,5 +8,8 @@ const input = getElement('[name="cocktail"]'); //Guardar variable del input del 
 
 form.addEventListener('keyup', function (e) {
     e.preventDefault();
-    console.log(input.value);
+    const value = input.value; //Guardar valor del input
+    
+    if(!value) return;
+    getData(`${URL}${value}`);
 });
