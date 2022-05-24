@@ -1,10 +1,10 @@
+import fetchCocktail from "./fetchCocktails.js";
 import displayCocktails from "./displayCocktails.js";
-import fetchCocktail from "./fetch.js";
 
 //Cargar datos de la API
-const getData = async (API) => {
+const getData = async (api) => {
     
-    const data = await fetchCocktail(API);
+    const data = await fetchCocktail(api);
 
     //Mostrar cocteles
     const section = await displayCocktails(data);

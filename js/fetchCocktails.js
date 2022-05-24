@@ -1,3 +1,7 @@
+/**
+**Fetch para traer datos de la API 
+*/
+
 const fetchCocktail = async (url) => {
     try {
         const res = await fetch(url);
