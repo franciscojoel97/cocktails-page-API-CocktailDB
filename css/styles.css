@@ -10,6 +10,7 @@
 
 body {
     background-color: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
@@ -31,7 +32,7 @@ body {
 /****** Title cocktail: no se encontraron coincidencias ******/
 .title-cocktail {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .form {
