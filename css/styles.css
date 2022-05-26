@@ -12,6 +12,7 @@ body {
     background-color: var(--very-light-gray);
 }
 
+
 /******** Main title ********/
 .main-title {
     font-family: 'Big Shoulders Display', cursive;
@@ -25,6 +26,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/****** Title cocktail: no se encontraron coincidencias ******/
+.title-cocktail {
+    text-align: center;
+    margin-top: 5rem;
 }
 
 .form {
