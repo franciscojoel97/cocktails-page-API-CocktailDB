@@ -11,12 +11,13 @@ const displayCocktails = ({ drinks }) => {
 
     const newCocktail = drinks.map((cocktail) => {
         //Cocktail object
-        const {idDrink: id, strDrink: name, strDrinkThumb: image} = cocktail;
+        const {idDrink: id, strDrink: name, strDrinkThumb: image, strCategory: category} = cocktail;
 
         return `<a href="#" class="a-cocktails">
                     <article class="cocktails" data-id="${id}">
                         <img src="${image}" alt="${name}">
                         <h3>${name}</h3>
+                        <p><span>Categoría:</span> ${category}</p>
                     </article>
                 </a>`
     }).join('');
