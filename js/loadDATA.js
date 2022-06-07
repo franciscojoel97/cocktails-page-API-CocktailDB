@@ -5,10 +5,10 @@ import displayCocktails from "./displayCocktails.js";
 const getData = async (api) => {
     
     const data = await fetchCocktail(api);
-
+    console.log(data);
     //Mostrar cocteles
     const section = await displayCocktails(data);
-    console.log(section);
+    /* console.log(section); */
     
 }
 
