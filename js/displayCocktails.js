@@ -1,9 +1,14 @@
-import getElement from './getElement.js'
+import getElement from './getElement.js';
+import { hideLoading } from './spinnerLoading.js';
+
 
 const displayCocktails = ({ drinks }) => {
     const section = getElement('.section-body');
     const titleCocktail = getElement('.title-cocktail');
     if(!drinks) {
+        //hide loading
+        hideLoading();
+
         titleCocktail.textContent = 'Lo siento, no se encontraron coincidencias';
         section.innerHTML = null;
         return;
@@ -22,6 +27,9 @@ const displayCocktails = ({ drinks }) => {
                 </a>`
     }).join('');
 
+    //hide loading
+    hideLoading();
+    
     titleCocktail.textContent = '';
     section.innerHTML = newCocktail;
     return section;
