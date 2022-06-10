@@ -115,9 +115,10 @@ body {
 
 /******** Loaging Spinner ******/
 .spinner {
-    border: 4px solid rgba(0, 0, 0, .1);
-    width: 36px;
-    height: 36px;
+    border: 6px solid rgba(0, 0, 0, .1);
+    width: 65px;
+    height: 65px;
+    margin: 6rem auto;
     border-radius: 50%;
     border-left-color: #09F;
     animation: spin 1s linear infinite;
