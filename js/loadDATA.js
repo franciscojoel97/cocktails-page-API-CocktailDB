@@ -1,5 +1,6 @@
 import fetchCocktail from "./fetchCocktails.js";
 import displayCocktails from "./displayCocktails.js";
+import setCocktail from "./setCocktail.js";
 
 //Cargar datos de la API
 const getData = async (api) => {
@@ -9,6 +10,9 @@ const getData = async (api) => {
     //Mostrar cocteles
     const section = await displayCocktails(data);
     /* console.log(section); */
+    if (section) {
+        setCocktail(section);
+    }
     
 }
 
