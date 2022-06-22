@@ -18,7 +18,7 @@ const displayCocktails = ({ drinks }) => {
         //Cocktail object
         const {idDrink: id, strDrink: name, strDrinkThumb: image, strCategory: category} = cocktail;
 
-        return `<a href="#" class="a-cocktails">
+        return `<a href="cocktail.html" class="a-cocktails">
                     <article class="cocktails" data-id="${id}">
                         <img src="${image}" alt="${name}">
                         <h3>${name}</h3>
