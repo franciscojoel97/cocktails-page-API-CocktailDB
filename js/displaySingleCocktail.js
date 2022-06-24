@@ -21,6 +21,8 @@ const displayCocktail = (data) => {
     const description = getElement('.cocktail-desc');
     const ingredientes = getElement('.cocktail-ingredients');
 
+    img.src = image;
+
     console.log(drink, listIngredients);
 }
 
