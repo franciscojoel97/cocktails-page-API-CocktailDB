@@ -23,6 +23,10 @@ const displayCocktail = (data) => {
 
     img.src = image;
 
+    document.title = name; //Asignar titulo de la bebida
+    cocktailName.textContent = name;
+    description.textContent = desc;
+
     console.log(drink, listIngredients);
 }
 
