@@ -21,11 +21,18 @@ const displayCocktail = (data) => {
     const description = getElement('.cocktail-desc');
     const ingredientes = getElement('.cocktail-ingredients');
 
-    img.src = image;
+    img.src = image; //Asignando imagen
 
     document.title = name; //Asignar titulo de la bebida
     cocktailName.textContent = name;
     description.textContent = desc;
+
+    //Lista de ingredientes
+    ingredientes.innerHTML = listIngredients.map((item) => {
+        if(!item) return;
+
+        return `<li><i class="far fa-check-square"></i>${item}</li>`;
+    }).join('');
 
     console.log(drink, listIngredients);
 }
