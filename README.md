@@ -13,7 +13,7 @@ Se emplea el uso de CSS Flexbox para el diseño y ajuste del contenido principal
 
 ## TheCocktailDB API
 
-Consumo de la API TheCocktailDB con fetch
+Consumo de la API TheCocktailDB con fetch.
 
 ```js 
 const API = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=?';
