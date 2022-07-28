@@ -16,4 +16,4 @@ const presentCocktail = async () => {
     
 }
 
-window.addEventListener('DOMContentLoaded', presentCocktail);
+window.addEventListener("DOMContentLoaded", presentCocktail);
