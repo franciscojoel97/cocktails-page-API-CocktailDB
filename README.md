@@ -1,4 +1,4 @@
-# En construcción
+# COCTELIER PUB - CONSUMO DE API
 
 ## DISEÑO CSS
 Se emplea el uso de CSS Flexbox para el diseño y ajuste del contenido principal de la web, aquí se puede observar un ejemplo del código utilizado. 
