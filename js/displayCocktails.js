@@ -31,7 +31,7 @@ const displayCocktails = ({ drinks }) => {
                         <img src="${image}" alt="${name}">
                         <h3>${name}</h3>
                         <p><span>Categoría:</span> ${category}</p>
-                        <p class="cocktail-ingredients"><span>Ingrediente: </span>${listIngredients[0]}, ${listIngredients[1]}, ${listIngredients[2]}</p>
+                        <p class="cocktail-ingredients"><span>Ingredientes: </span>${listIngredients[0]}, ${listIngredients[1]}, ${listIngredients[2]}</p>
                     </article>
                 </a>`
     }).join('');

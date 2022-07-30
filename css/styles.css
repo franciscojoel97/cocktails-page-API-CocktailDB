@@ -1,6 +1,6 @@
 /******** VARIABLES *********/
 :root {
-    --very-light-gray: hsl(0, 0%, 90%);
+    --very-light-gray: hsl(0, 0%, 88%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
 }
@@ -8,6 +8,8 @@
 /********* GENERALES *********/
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -22,6 +24,7 @@ body {
     text-align: center;
     font-size: 40px;
     margin: 3rem;
+    color: var(--very-dark-cyan);
 }
 
 /******* SEARCH BAR ******/
@@ -96,14 +99,15 @@ body {
 .a-cocktails .ccocktails img {
     width: 330px;
     height: 220px;
-    /* object-fit: cover; */
-    /* display: block; */
+    object-fit: cover; 
+    display: block;
 }
 
 .a-cocktails .ccocktails h3 {
     font-weight: 600;
     font-size: 23px;
-    color: var(--very-dark-cyan)
+    color: var(--very-dark-cyan);
+    margin: .5rem;
 }
 
 .a-cocktails .ccocktails span {
@@ -112,6 +116,8 @@ body {
 
 .a-cocktails .ccocktails p {
     color: var(--dark-cyan);
+    margin: .8rem;
+    font-size: 15.5px;
 }
 
 /******** Loaging Spinner ******/
